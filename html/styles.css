@@ -1,0 +1,132 @@
+.base_hud {
+  background-image: linear-gradient(180deg, rgb(0, 0, 0), rgb(100, 100, 100));
+  width: 150px;
+  height: 7px;
+  max-width: 150px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+  border: 3px solid #000000af;
+}
+
+
+#life_hud_hover {
+  background-color: #ed4564;
+  width: 90%;
+  height: 7px;
+  border-radius: 10px;
+  transition: width 2s;
+}
+
+.circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-image: linear-gradient(180deg, rgb(0, 0, 0), rgb(100, 100, 100));
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: -4px;
+}
+
+.container {
+  display: none;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+}
+
+
+
+.hud_item {
+  font-family: 'New Tegomin', serif;
+  background-color: #000000bd;
+  width: auto;
+  max-width: 250px;
+  color: #f2f2f2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 14px;
+  font-size: 10pt;
+  padding: 2px 10px;
+  margin-left: 10px;
+}
+
+#icons {
+  font-size: 10pt;
+  color: #3399ff;
+}
+
+.top_hud {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 15px;
+  left: 60px;
+  justify-content: space-around;
+}
+
+#bullet_proof_hud_hover {
+  background-color: #3f5aee;
+  width: 100%;
+  height: 7px;
+  border-radius: 10px;
+  transition: width 2s
+}
+
+.hud_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+
+.speedometer{
+  bottom: 40px;
+  right: 40px;
+  width: 150px;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.59);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  flex-direction: column;
+}
+
+.speedometer span{
+  font-family: 'Roboto', serif;
+  color:rgb(79, 79, 79);
+  font-weight: bold;
+  font-size: 36pt;
+}
+
+#metrics{
+  font-size: 14pt;
+}
+
+#cambio{
+  width: 15px;
+  fill: #EDF2F4;
+}
+
+.cambio{
+  display: flex;
+  flex-direction: row;
+  width: 50px;
+  justify-content: space-around;
+}
+
+
+.cambio span{ 
+  color:#EDF2F4;
+  font-size: 10pt;
+}

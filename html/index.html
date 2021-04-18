@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+  <button onclick="test()"></button>
+  <div class="top_hud">
+    <div class="hud_item">
+      <span class="material-icons" id="icons">
+        schedule
+      </span>
+      <span id="hour">
+      </span>
+    </div>
+    <div class="hud_item">
+      <span class="material-icons" id="icons">
+        place
+      </span>
+      <span id="street_name">
+        a
+      </span>
+    </div>
+  </div>
+  <div class="container">
+    <div class="hud_container">
+      <div class="base_hud">
+        <div id="life_hud_hover">
+          </span>
+        </div>
+      </div>
+      <div class="circle">
+        <span style="font-size: 12pt;  color: #ed4564;" class="material-icons">
+          favorite
+      </div>
+    </div>
+    <div class="hud_container">
+
+      <div class="base_hud">
+        <div id="bullet_proof_hud_hover">
+          </span>
+        </div>
+      </div>
+      <div class="circle">
+        <span style="font-size: 12pt;  color: #3f5aee;" class="material-icons">
+          add_moderator
+        </span>
+      </div>
+    </div>
+
+  </div>
+  <div class="speedometer">
+    <div class="cambio">
+      <svg version="1.1" id="cambio" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+        <g>
+          <g>
+            <path d="M473.5,424.58V87.42c17.459-6.192,30-22.865,30-42.42c0-24.813-20.187-45-45-45s-45,20.187-45,45
+         c0,19.555,12.541,36.228,30,42.42V240h-105V87.42c17.459-6.192,30-22.865,30-42.42c0-24.813-20.187-45-45-45s-45,20.187-45,45
+         c0,19.555,12.541,36.228,30,42.42V240h-105V87.42c17.459-6.192,30-22.865,30-42.42c0-24.813-20.187-45-45-45s-45,20.187-45,45
+         c0,19.555,12.541,36.228,30,42.42V240h-90c-8.271,0-15-6.729-15-15V87.42c17.459-6.192,30-22.865,30-42.42
+         c0-24.813-20.187-45-45-45s-45,20.187-45,45c0,19.555,12.541,36.228,30,42.42V225c0,24.813,20.187,45,45,45h90v154.58
+         c-17.459,6.192-30,22.865-30,42.42c0,24.813,20.187,45,45,45s45-20.187,45-45c0-19.555-12.541-36.228-30-42.42V270h105v154.58
+         c-17.459,6.192-30,22.865-30,42.42c0,24.813,20.187,45,45,45s45-20.187,45-45c0-19.555-12.541-36.228-30-42.42V270h105v154.58
+         c-17.459,6.192-30,22.865-30,42.42c0,24.813,20.187,45,45,45s45-20.187,45-45C503.5,447.445,490.959,430.772,473.5,424.58z
+          M53.5,60c-8.271,0-15-6.729-15-15s6.729-15,15-15s15,6.729,15,15S61.771,60,53.5,60z M188.5,482c-8.271,0-15-6.729-15-15
+         s6.729-15,15-15s15,6.729,15,15S196.771,482,188.5,482z M188.5,60c-8.271,0-15-6.729-15-15s6.729-15,15-15s15,6.729,15,15
+         S196.771,60,188.5,60z M323.5,482c-8.271,0-15-6.729-15-15s6.729-15,15-15s15,6.729,15,15S331.771,482,323.5,482z M323.5,60
+         c-8.271,0-15-6.729-15-15s6.729-15,15-15s15,6.729,15,15S331.771,60,323.5,60z M458.5,30c8.271,0,15,6.729,15,15s-6.729,15-15,15
+         s-15-6.729-15-15S450.229,30,458.5,30z M458.5,482c-8.271,0-15-6.729-15-15s6.729-15,15-15s15,6.729,15,15S466.771,482,458.5,482z
+         " />
+          </g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+      </svg>
+      <span>1</span>
+
+    </div>
+    <div>
+      <span id="speedometer">000</span>
+    </div>
+    <span id="metrics">km/h</span>
+  </div>
+</body>
+
+<script src="./index.js"></script>
+
+</html>
