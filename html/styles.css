@@ -89,24 +89,18 @@
 
 
 .speedometer{
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
   bottom: 40px;
   right: 40px;
-  width: 150px;
-  height: 150px;
-  background-color: rgba(0, 0, 0, 0.59);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  flex-direction: column;
 }
 
-.speedometer span{
-  font-family: 'Roboto', serif;
-  color:rgb(79, 79, 79);
-  font-weight: bold;
-  font-size: 36pt;
+.progress{
+  -webkit-transition: 0.35s stroke-dashoffset;
+  -o-transition: 0.35s stroke-dashoffset;
+  transition: 0.35s stroke-dashoffset;
 }
 
 #metrics{
@@ -130,3 +124,4 @@
   color:#EDF2F4;
   font-size: 10pt;
 }
+
