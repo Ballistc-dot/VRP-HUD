@@ -23,7 +23,7 @@ $(function () {
 
     }
     circle.style.strokeDasharray = `${circleference} ${circleference} `;
-    //circle.style.strokeDashoffset = `${circleference} `;
+    circle.style.strokeDashoffset = `${circleference} `;
 
     if (value <= 230) {
       offset = + circleference + ((+ percent * 96) / 100) / 100 * circleference;
